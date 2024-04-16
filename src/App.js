@@ -38,7 +38,7 @@ function App() {
       let final = itemArray[random];
       // console.log(choice[final]);
       setComputerSelect(choice[final]);
-    }, 500);
+    }, 100);
   };
 
   const play = (userChoice) => {
