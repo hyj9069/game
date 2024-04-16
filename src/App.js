@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 import "./App.css";
 import { useEffect, useRef, useState } from "react";
-import Game from "./components/Game";
 import Box from "./components/Box";
 import paper from "./components/img/paper.png";
 import rock from "./components/img/rock.png";
@@ -26,7 +24,6 @@ function App() {
   const [userSelect, setUserSelect] = useState(choice["rock"]);
   const [computerSelect, setComputerSelect] = useState(choice["scissors"]);
   const [result, setResult] = useState("");
-  const [score, setScore] = useState(0);
   const timeRef = useRef();
 
   useEffect(() => {
@@ -71,14 +68,6 @@ function App() {
         <button onClick={() => play("rock")}>바위</button>
         <button onClick={() => play("paper")}>보</button>
       </div>
-=======
-import './App.css';
-import Game from './components/Game';
-function App() {
-  return (
-    <div className="App">
-      <Game />
->>>>>>> 54751035aa8e4f7de3d81c9bb22d73ffad7fbd58
     </div>
   );
 }
