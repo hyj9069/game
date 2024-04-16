@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./App.css";
 import { useEffect, useRef, useState } from "react";
 import Game from "./components/Game";
@@ -70,6 +71,14 @@ function App() {
         <button onClick={() => play("rock")}>바위</button>
         <button onClick={() => play("paper")}>보</button>
       </div>
+=======
+import './App.css';
+import Game from './components/Game';
+function App() {
+  return (
+    <div className="App">
+      <Game />
+>>>>>>> 54751035aa8e4f7de3d81c9bb22d73ffad7fbd58
     </div>
   );
 }
