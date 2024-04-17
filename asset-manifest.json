@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/game/static/css/main.65f29503.css",
+    "main.js": "/game/static/js/main.feb61298.js",
+    "static/js/453.a5a72b74.chunk.js": "/game/static/js/453.a5a72b74.chunk.js",
+    "static/media/paper.png": "/game/static/media/paper.12bf42fe910da7407120.png",
+    "static/media/scissors.png": "/game/static/media/scissors.a36ce920611696fb4dd1.png",
+    "static/media/rock.png": "/game/static/media/rock.39c31959090ab7ab579f.png",
+    "index.html": "/game/index.html",
+    "main.65f29503.css.map": "/game/static/css/main.65f29503.css.map",
+    "main.feb61298.js.map": "/game/static/js/main.feb61298.js.map",
+    "453.a5a72b74.chunk.js.map": "/game/static/js/453.a5a72b74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65f29503.css",
+    "static/js/main.feb61298.js"
+  ]
+}
